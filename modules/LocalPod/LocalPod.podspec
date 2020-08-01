@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.test_spec 'UnitTests' do |test_spec|
+    test_spec.source_files = 'LocalPod/UnitTests/**/*'
+    test_spec.dependency 'Nimble', '~> 8.0.9'
+    test_spec.dependency 'Quick', '~> 2.2.0'
+  end
 end

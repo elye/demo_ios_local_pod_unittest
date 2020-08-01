@@ -6,7 +6,7 @@ target 'ios-pod-test-creation' do
   use_frameworks!
 
   # Pods for ios-pod-test-creation
-  pod 'LocalPod', :path => './modules/LocalPod'
+  pod 'LocalPod', :path => './modules/LocalPod', :testspecs => ['UnitTests']
 
   target 'ios-pod-test-creationTests' do
     inherit! :search_paths

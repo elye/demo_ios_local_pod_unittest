@@ -1,10 +1,14 @@
 PODS:
   - LocalPod (0.1.0)
+  - LocalPod/UnitTests (0.1.0):
+    - Nimble (~> 8.0.9)
+    - Quick (~> 2.2.0)
   - Nimble (8.0.9)
   - Quick (2.2.1)
 
 DEPENDENCIES:
   - LocalPod (from `./modules/LocalPod`)
+  - LocalPod/UnitTests (from `./modules/LocalPod`)
   - Nimble (~> 8.0.9)
   - Quick (~> 2.2.0)
 
@@ -18,10 +22,10 @@ EXTERNAL SOURCES:
     :path: "./modules/LocalPod"
 
 SPEC CHECKSUMS:
-  LocalPod: 67e574d0ae0d2f2f726c1df075dfa0af0e0cdbbb
+  LocalPod: 9121497fc7e525965fa4cd988665ee1fa0a65197
   Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 99df4b41b259dec5f4f9781ed9b4f49767db829b
+PODFILE CHECKSUM: f2de96a249cc3f7c9b367647862747a1da7a4c42
 
 COCOAPODS: 1.8.4

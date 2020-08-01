@@ -48,6 +48,16 @@
                ReferencedContainer = "container:ios-pod-test-creation.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD64C3911C523A841DDD86B3CBCB3CCC"
+               BuildableName = "LocalPod-Unit-UnitTests.xctest"
+               BlueprintName = "LocalPod-Unit-UnitTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
