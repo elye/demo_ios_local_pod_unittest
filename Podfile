@@ -20,3 +20,14 @@ target 'ios-pod-test-creation' do
   end
 
 end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.name == 'Development'
+        config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
+        config.build_settings['ENABLE_TESTABILITY'] = 'YES'
+      end
+    end
+  end
+end
